@@ -1,0 +1,637 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F5F5F5;
+    font-family: 'Roboto';
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+ul,
+ol,
+li{
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+.head{
+    top: 0;
+    right: 0;
+    display: flex;
+    background-color: #000000;
+    width: 100%;
+    height: 37px;
+    justify-content: center;
+}
+.head p{
+    color: #F5F5F5;
+    align-self: center;
+    font-family: 'Roboto';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.section1{
+    margin-top: 50px;
+}
+.title_page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    align-items: center;
+}
+.title_text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 340px;
+    width: 100%;
+}
+.title_text h1{
+    width: 488px;
+    height: 130px;
+    font-size: 54px;
+    line-height: 64.8px;
+    font-weight: 400;
+    margin-left: 60px;
+}
+.title_text p{
+    font-size: 18px;
+    line-height: 25.2px;
+    letter-spacing: 0.38px;
+    height: 101px;
+    width: 357px;
+    align-self: last baseline;
+}
+.title_img{
+    object-fit: cover;
+    max-width: 100%;
+}
+.shop_now{
+    text-align: center;
+    background-color: #000000;
+    color: #F5F5F5;
+    width: 130px;
+    height: 47px;
+    margin-left: 56px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.6px;
+}
+.shop_now:hover{
+    background-color: #493a3a;
+    transition: all 0.3s;
+}
+.featured_in{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin-top: 281px;
+}
+.img_featured ul{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+.clinically_proven{
+    margin-top: 250px;
+}
+.clinically_wrapper{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+}
+.img_clinically_proven img{
+    object-fit: cover;
+}
+.clinically_proven_text{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.title_clinically_text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin-right: 300px;
+}
+.isto{
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 64.8px;
+}
+.clinically_text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    width: 400px;
+    height: 162px;
+}
+.btn-learn_more{
+    width: 147px;
+    height: 47px;
+    background-color: #000000;
+    color: #F5F5F5;
+    margin-bottom: 80px;
+}
+.btn-learn_more:hover{
+    background-color: #493a3a;
+    transition: all 0.3s;
+}
+.video{
+    margin-top: 45px;
+    background-color: #F7F5F0;
+    width: 100%;
+}
+.video video{
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+.industry{
+    margin-top: 260px;
+}
+.industry_block{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.industry_title{
+    height: 84px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.industry_changing{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+}
+.bioengineered{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22.5px;
+    text-transform: uppercase;
+}
+.text_info{
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    margin-top: 110px;
+}
+.text_info li{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.industry_text{
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 70.2px;
+    text-transform: uppercase;
+}
+.industry_text_down{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+}
+.btn-view{
+    background-color: #000000;
+    color: #F5F5F5;
+    width: 356px;
+    height: 47px;
+    margin-top: 125px;
+    text-transform: uppercase;
+}
+.btn-view:hover{
+    background-color: #493a3a;
+    transition: all 0.3s;
+}
+.healing_wisdom{
+    margin-top: 275px;
+}
+.healing_wisdom_block{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+.whats_inside_text{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22.5px;
+}
+.healing_wisdom_text{
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 64.8px;
+    margin-top: 20px;
+}
+.discription_text{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 87px;
+    align-items: center;
+    height: 60vw;
+    max-height: 680px;
+    min-height: 500px;
+}
+.title_discription{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31.2px;
+}
+.text_discription{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    margin-top: 26px;
+    width: 364px;
+}
+.more_img{
+    margin-top: 10vw;
+    margin-bottom: 3px;
+}
+.more_img_wrapper{
+    width: 1200px;
+}
+.hashtag{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vw;
+}
+.hashtag p{
+    font-size: 27px;
+    line-height: 35.1px;
+    font-weight: 400;
+}
+.list_img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 3px;
+    grid-row-gap: 3px;
+}
+.list_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.raise_ur_standart{
+    width: 100%;
+    background-color: #000000;
+    color:#F5F5F5
+}
+.footer_wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 70px;
+    width: 1200px;
+}
+.raise_ur_standart_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.raise_text{
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 70.2px;
+    letter-spacing: 0.6px;
+    width: 329px;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 26vw;
+    min-width: 400px;
+}
+.shop_items_first p{
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 16.9px;
+    color: #808080;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+}
+.shop_items p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.71px;
+    margin-bottom: 10px;
+}
+.connect_item_first p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.9px;
+    color: #808080;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+}
+.connect_item{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.71px;
+    margin-bottom: 10px;
+}
+.more_links{
+    margin-top: 12vw;
+}
+.list_links{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.item_more_link p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.9px;
+    text-transform: uppercase;
+}
+.signature p{
+    font-size: 10px;
+    font-weight: 400px;
+    line-height: 13px;
+    letter-spacing: 0.36px;
+    width: 463px;
+    margin-top: 4vw;
+}
+.reference_information{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* adaptive */
+
+@media (max-width: 1200px) {
+    .title_page{
+        display: flex;
+        flex-direction: column;
+    }
+    .title_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 340px;
+        width: 640px;
+    }
+    .img_featured ul{
+        display: flex;
+        justify-content: space-between;
+        width: 680px;
+    }
+    .text_info{
+        width: 800px;
+    }
+    .footer_wrapper{
+        display: flex;
+        justify-content: space-between;
+        padding: 100px 70px;
+        width: 1200px;
+    }
+    .footer_wrapper{
+        padding: 100px 40px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .clinically_wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+    .clinically_proven_text{
+        margin-top: 40px;
+        height: 400px;
+        align-items: center;
+    }
+    .btn-learn_more{
+        margin-bottom: 10px;
+    }
+    .title_clinically_text{
+        margin-right: 0;
+    }
+    .text_info{
+        width: 660px;
+    }
+    .btn-view{
+        margin-top: 85px;
+    }
+    .text_info{
+        margin-top: 80px;
+    }
+    .industry{
+        margin-top: 100px
+    }
+    .healing_wisdom_block{
+        flex-direction: column;
+        align-items: center;
+    }
+    .whats_inside_img{
+        margin-top: 12vw;
+    }
+    .footer_wrapper{
+        padding: 80px 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .links{
+        margin-top: 10vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .title_text p{
+        align-self: center;
+    }
+    .shop_now{
+        background-color: #000000;
+        color: #FFFFFF;
+        width: 130px;
+        height: 47px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15.6px;
+    }
+    .btn-learn_more{
+        background-color: #000000;
+        color: #FFFFFF;
+        width: 130px;
+        height: 47px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15.6px;
+    }
+    .img_featured ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 240px;
+        margin-top: 20px;
+    }
+    .featured_in{
+        height: 240px;
+    }
+    .featured_in{
+        margin-top: 181px;
+    }
+    .clinically_proven{
+        margin-top: 150px;
+    }
+    .industry_text{
+        font-weight: 300;
+        font-size: 42px;
+        line-height: 70.2px;
+    }
+    .industry_text_down{
+        font-weight: 200;
+        font-size: 16px;
+        line-height: 27px;
+    }
+    .btn-view{
+        margin-top: 85px;
+        width: 256px;
+        height: 37px;
+    }
+    .text_info{
+        display: flex;
+        width: 1000px;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .industry_changing{
+        font-weight: 300;
+        font-size: 26px;
+        line-height: 29px;
+        width: 400px;
+        text-align: center;
+    }
+    .bioengineered{
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 18.5px;
+    }
+    .industry_title{
+        height: 104px;
+    }
+    .healing_wisdom_text{
+        font-weight: 400;
+        font-size: 44px;
+        line-height: 54.8px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .discription_text{
+        margin-top: 20px;
+    }
+    .whats_inside_text{
+        margin-left: 10vw;
+    }
+    .list_img{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .title_img{
+        width: 100%;
+        height: auto;
+    }
+    .head p{
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 14px;
+    }
+    .title_text{
+        height: 300px;
+        width: 640px;
+        margin: auto 0;
+    }
+    .title_text h1{
+        width: 388px;
+        height: 130px;
+        font-size: 34px;
+        line-height: 64.8px;
+        font-weight: 400;
+    }
+    .title_text p{
+        font-size: 14px;
+        line-height: 25.2px;
+        letter-spacing: 0.38px;
+        height: 101px;
+        width: 357px;
+        align-self: center;
+    }
+    .title_clinically_text{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 27px;
+    }
+    .isto{
+        font-weight: 300;
+        font-size: 44px;
+        line-height: 64.8px;
+    }
+    .clinically_text{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 27px;
+        width: 320px;
+        height: 162px;
+    }
+    .clinically_proven_text{
+        margin-top: 40px;
+        height: 380px;
+        align-items: center;
+    }
+    .btn-learn_more{
+        margin-bottom: 0;
+    }
+    .hashtag p{
+        font-size: 18px;
+        line-height: 29.1px;
+        font-weight: 400;
+    }
+    .links{
+        display: flex;
+        justify-content: space-between;
+        width: 26vw;
+        min-width: 300px;
+    }
+    .list_links{
+        display: flex;
+        justify-content: space-between;
+        width: 380px;
+    }
+    .more_links{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .signature p{
+        width: 363px;
+    }
+}
