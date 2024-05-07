@@ -321,7 +321,7 @@ img {
     display: flex;
     justify-content: space-between;
     width: 26vw;
-    min-width: 400;
+    min-width: 400px;
 }
 .shop_items_first p{
     font-size: 12px;
